@@ -4,7 +4,7 @@ def analyze_chat_data(file_path):
     participants = {}
     total_messages = 0
 
-    with open('_chat.txt', 'r', encoding='utf-8') as file:
+    with open('give your path here', 'r', encoding='utf-8') as file:
         for line in file:
             # Example line format: [timestamp] Sender Name: Message
             if ']' in line and ':' in line:
